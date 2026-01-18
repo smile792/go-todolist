@@ -1,0 +1,43 @@
+# ===== Go =====
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ===== Go modules =====
+/vendor/
+
+# ===== IDE / Editor =====
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Env / secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== Logs =====
+*.log
+
+# ===== Air (hot reload) =====
+/tmp/
+
+# ===== Database =====
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== Coverage =====
+coverage.out
