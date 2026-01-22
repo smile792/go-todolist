@@ -13,11 +13,17 @@
 # ===== Go modules =====
 /vendor/
 
-# ===== IDE / Editor =====
-.idea/
+# ===== Air =====
+/tmp/
+.air/
+
+# ===== Frontend  =====
+node_modules/
+dist/
+.vite/
+
+# ===== IDE =====
 .vscode/
-*.swp
-*.swo
 
 # ===== OS =====
 .DS_Store
@@ -31,10 +37,7 @@ Thumbs.db
 # ===== Logs =====
 *.log
 
-# ===== Air (hot reload) =====
-/tmp/
-
-# ===== Database =====
+# ===== Database (local) =====
 *.db
 *.sqlite
 *.sqlite3
