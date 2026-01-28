@@ -9,6 +9,7 @@
 *.dylib
 *.test
 *.out
+tmp/
 
 # ===== Go modules =====
 /vendor/
@@ -18,9 +19,10 @@
 .air/
 
 # ===== Frontend  =====
-node_modules/
-dist/
-.vite/
+node_modules
+dist
+dist-ssr
+*.local
 
 # ===== IDE =====
 .vscode/
@@ -36,6 +38,7 @@ Thumbs.db
 
 # ===== Logs =====
 *.log
+npm-debug.log*
 
 # ===== Database (local) =====
 *.db
