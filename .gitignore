@@ -9,15 +9,23 @@
 *.dylib
 *.test
 *.out
+tmp/
 
 # ===== Go modules =====
 /vendor/
 
-# ===== IDE / Editor =====
-.idea/
+# ===== Air =====
+/tmp/
+.air/
+
+# ===== Frontend  =====
+node_modules
+dist
+dist-ssr
+*.local
+
+# ===== IDE =====
 .vscode/
-*.swp
-*.swo
 
 # ===== OS =====
 .DS_Store
@@ -30,11 +38,9 @@ Thumbs.db
 
 # ===== Logs =====
 *.log
+npm-debug.log*
 
-# ===== Air (hot reload) =====
-/tmp/
-
-# ===== Database =====
+# ===== Database (local) =====
 *.db
 *.sqlite
 *.sqlite3
